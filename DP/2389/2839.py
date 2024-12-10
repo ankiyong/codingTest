@@ -1,5 +1,6 @@
 limit = 5000
-N = int(input())
+while 3 <= N <= 5000:
+    N = int(input())
 dp = [limit] * 5001
 
 dp[3],dp[5] = 1,1
